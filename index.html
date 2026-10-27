@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CustomTel – personnalise ton smartphone</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="atelier">
+  <section class="scene" aria-label="Aperçu du téléphone">
+    <div class="phone" id="phone">
+      <div class="module" id="module"></div>
+      <div class="brand" id="brand">Nova</div>
+      <div class="side-btn"></div>
+    </div>
+    <p class="recap" id="recap" aria-live="polite"></p>
+  </section>
+
+  <section class="panel" aria-label="Options">
+    <p class="logo">CustomTel</p>
+    <h1>Ton téléphone, à ta façon</h1>
+
+    <fieldset>
+      <legend>Couleur</legend>
+      <div class="swatches" id="colors"></div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Finition</legend>
+      <div class="choices" id="finish"></div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Appareils photo</legend>
+      <div class="choices" id="cameras"></div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Forme du bloc photo</legend>
+      <div class="choices" id="shape"></div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Marque</legend>
+      <div class="choices" id="brands"></div>
+    </fieldset>
+
+    <div class="actions">
+      <button type="button" id="random">Au hasard</button>
+      <button type="button" id="reset" class="ghost">Réinitialiser</button>
+    </div>
+  </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
+
